@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sdst-library">
       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/browse" element={<BrowsePage />} />
