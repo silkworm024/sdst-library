@@ -1,0 +1,59 @@
+
+:root {
+  --color-green: #2D4A3E;
+  --color-cream: #F7F4ED;
+  --color-marigold: #E8A33D;
+  --font-display: 'Fraunces', serif;
+}
+
+.hero {
+  background: var(--color-green);
+  color: var(--color-cream);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 1rem 0 2.5rem;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  max-width: 480px;
+}
+
+.hero-description {
+  font-size: 15px;
+  line-height: 1.7;
+  opacity: 0.85;
+  max-width: 440px;
+  margin: 0 0 1.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--color-marigold);
+  color: var(--color-green);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-cream);
+  border: 0.5px solid rgba(247, 244, 237, 0.4);
+}
