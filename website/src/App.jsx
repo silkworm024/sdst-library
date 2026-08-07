@@ -11,6 +11,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/browse" element={<BrowsePage />} />
           <Route path="/submit" element={<SubmitPage />} />
+          <Route path="/wiki" element={<WikiPage />} />
       </Routes>
     </BrowserRouter>
   )
