@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import BrowsePage from './pages/BrowsePage'
-import SubmitPage from './pages/SubmitPage'
+import SubmitPage from 'pages/SubmitPage'
+import WikiPage from 'pages/WikiPage'
 import './App.css'
 
 function App() {
