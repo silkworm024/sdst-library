@@ -1,4 +1,4 @@
-import Hero from '../components/ScriptLoader'
+import ScriptLoader from '../components/ScriptLoader'
 
 export default function WikiPage (){
     return(
