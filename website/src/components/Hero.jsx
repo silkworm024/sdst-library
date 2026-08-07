@@ -8,6 +8,7 @@ export default function Hero (){
             <div className="hero-buttons">
                 <Link to="/browse" className="btn btn-primary">Browse Curriculum</Link>
                 <Link to="/submit" className="btn btn-secondary">Submit Curriculum</Link>
+                <Link to="/wiki" className="btn btn-secondary">Wiki</Link>
             </div>
         </section>
     )
